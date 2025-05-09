@@ -12,15 +12,12 @@
 			<h1
 				class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl"
 			>
-				Real Estate Svelte
-				<span class="underline underline-offset-2 decoration-8 decoration-purple-400">Template</span
+				Classes are hard.
+				<span class="underline underline-offset-2 decoration-8 decoration-red-400">Rent Easy. </span
 				>
 			</h1>
 			<p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-				Real Estate Svelte Template is a free, open source template made by <a
-					class="text-purple-400"
-					href="https://x.com/melu1s"><strong>@melu1s</strong></a
-				>. Feel free to use it for your next project.
+				it's your home away from home, designed for comfort, study, and connection. Off-campus student housing for UH, HCC, UST, Rice, and TSU.
 			</p>
 
 			<form>
@@ -56,13 +53,13 @@
 					<input
 						type="search"
 						id="default-search"
-						class="block w-full p-4 pl-12 md:p-6 md:pl-12 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-purple-500 focus:border-purple-500"
+						class="block w-full p-4 pl-12 md:p-6 md:pl-12 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-red-500 focus:border-red-500"
 						placeholder="Search by Location"
 						required
 					/>
 					<button
 						type="submit"
-						class="text-white absolute right-1.5 bottom-1.5 md:bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm md:text-lg px-3 md:px-10 py-3"
+						class="text-white absolute right-1.5 bottom-1.5 md:bottom-2.5 bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm md:text-lg px-3 md:px-10 py-3"
 						>Search</button
 					>
 				</div>
@@ -79,14 +76,14 @@
 	<div
 		class="grid max-w-screen-xl grid-cols-1 place-items-center px-4 py-8 mx-auto gap-8 xl:gap-0 lg:py-16 md:grid-cols-3"
 	>
-		<div class="flex flex-col space-y-2 items-start px-6 py-6">
+		<div class="flex flex-col space-y-2 items-start px-6 py-6 min-h-[220px]">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="55"
 				height="58"
 				viewBox="0 0 55 58"
 				fill="none"
-				class="text-indigo-500"
+				class="text-red-500"
 			>
 				<path
 					fill-rule="evenodd"
@@ -95,19 +92,19 @@
 					fill="currentColor"
 				/>
 			</svg>
-			<h3 class="font-bold text-lg">Best Price</h3>
+			<h3 class="font-bold text-lg">It's Affordable</h3>
 			<p class="text-gray-500">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+				Our flat rates mean you can budget for your housing costs without worrying about unexpected increases, so you can focus on what really matters: your education.
 			</p>
 		</div>
-		<div class="flex flex-col space-y-2 items-start px-6 py-6">
+		<div class="flex flex-col space-y-2 items-start px-6 py-6  min-h-[220px]">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="51"
 				height="51"
 				viewBox="0 0 51 51"
 				fill="none"
-				class="text-indigo-500"
+				class="text-red-500"
 			>
 				<path
 					fill-rule="evenodd"
@@ -116,30 +113,29 @@
 					fill="currentColor"
 				/>
 			</svg>
-			<h3 class="font-bold text-lg">Construction</h3>
+			<h3 class="font-bold text-lg">It's Safe</h3>
 			<p class="text-gray-500">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+				Locations are chosen for safety and convenience using crime  location data without sacrificing commute times to campus.
 			</p>
 		</div>
-		<div class="flex flex-col space-y-2 items-start px-6 py-6">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="42"
-				height="42"
-				viewBox="0 0 42 42"
-				fill="none"
-				class="text-indigo-500"
-			>
-				<path
-					d="M20.6679 0.65332C16.1173 14.2562 8.26773 31.1598 0 41.6277L20.6679 33.3768L41.3844 41.6277C33.1182 31.1598 25.263 14.2562 20.6679 0.65332Z"
-					fill="currentColor"
-				/>
-			</svg>
-			<h3 class="font-bold text-lg">Design</h3>
-			<p class="text-gray-500">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-			</p>
-		</div>
+		<div class="flex flex-col space-y-2 items-start px-6 py-6 min-h-[220px]">
+  			<svg
+   				 xmlns="http://www.w3.org/2000/svg"
+   				 width="51"
+    			height="51"
+    			viewBox="0 0 16 24"
+    			fill="none"
+    			class="text-red-500"
+ 			 >
+   			 <path
+    			  d="M3 12L12 3L21 12H17V21H7V12H3Z"
+     			 fill="currentColor"
+    		/>
+ 			 </svg>
+ 		 <h3 class="font-bold text-lg">It's Home</h3>
+		 <p>
+			We know that home is more than just a place to live. It's a place to grow, learn, and connect with others. 
+</div>
 	</div>
 </section>
 
@@ -162,14 +158,14 @@
 					<input
 						type="text"
 						id="firstName"
-						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"
+						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5"
 						placeholder="First Name"
 						required
 					/>
 					<input
 						type="text"
 						id="lastName"
-						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"
+						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5"
 						placeholder="Last Name"
 						required
 					/>
@@ -178,14 +174,14 @@
 					<input
 						type="email"
 						id="email"
-						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"
+						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5"
 						placeholder="Email address"
 						required
 					/>
 					<input
 						type="tel"
 						id="phone"
-						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"
+						class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5"
 						placeholder="Phone Number"
 						required
 					/>
@@ -200,7 +196,7 @@
 				<p class="font-light text-gray-500 mb-6">We don't send you spam</p>
 				<button
 					type="button"
-					class="w-full text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-4 text-center mr-3 md:mr-0"
+					class="w-full text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-4 text-center mr-3 md:mr-0"
 					>Contact Us</button
 				>
 			</form>

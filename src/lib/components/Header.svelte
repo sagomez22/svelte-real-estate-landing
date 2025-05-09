@@ -7,7 +7,7 @@
 			<div class="flex md:order-2">
 				<button
 					type="button"
-					class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg md:text-lg px-6 py-2 text-center mr-3 md:mr-0"
+					class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg md:text-lg px-6 py-2 text-center mr-3 md:mr-0"
 					>Login</button
 				>
 				<button
@@ -45,35 +45,28 @@
 					<li>
 						<a
 							href="/"
-							class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="block py-2 pl-3 pr-4 text-white bg-red-700 rounded md:bg-transparent md:text-red-700 md:p-0"
 							aria-current="page">Home</a
 						>
 					</li>
 					<li>
 						<a
-							href="#property"
-							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0"
-							>Property</a
+							href="/properties"
+							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0"
+							>Properties</a
 						>
 					</li>
 					<li>
 						<a
-							href="#"
-							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0"
-							>About</a
-						>
-					</li>
-					<li>
-						<a
-							href="#service"
-							class=" block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0"
-							>Service</a
+							href="/about"
+							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0"
+							>About Us</a
 						>
 					</li>
 					<li>
 						<a
 							href="#contact"
-							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0"
+							class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0"
 							>Contact</a
 						>
 					</li>
